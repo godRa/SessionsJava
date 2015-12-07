@@ -4,7 +4,7 @@ public class Exercitii {
 
 	public static void main(String[] args) {
 
-		int n = 13;
+		int n = -5;
 		// System.out.println(isPrime(n));
 		if (isPrime(n)) {
 			System.out.println("Nr " + n + " " + "este prim");
@@ -12,6 +12,7 @@ public class Exercitii {
 			System.out.println("Nr " + n + " " + "nu este prim");
 
 		}
+		System.out.println(factorial(6));
 	}
 
 	public static boolean isPrime(int n) {
